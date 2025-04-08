@@ -1,48 +1,47 @@
 body {
-  margin: 0;
-  height: 100vh;
-  background: linear-gradient(135deg, #000000, #ffffff);
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(10px);
-  text-align: center;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
   width: 300px;
-  color: #fff;
 }
 
 h1 {
+  text-align: center;
   margin-bottom: 20px;
-  color: #00ffcc;
 }
 
-.counter-display {
-  font-size: 3em;
-  margin: 20px 0;
-  color: #fff;
+.row {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.buttons button {
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 1em;
+input[type="number"] {
+  width: 80px;
+  padding: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #28a745;
+  color: white;
   border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: #00ffcc;
-  color: #000;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+  border-radius: 5px;
 }
 
-.buttons button:hover {
-  background-color: #00e6b8;
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
 }
